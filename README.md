@@ -45,7 +45,7 @@ npm run build
 
 - GitHub 仓库：https://github.com/guyue-0418/quiz-admin
 - 构建产物仓库：https://github.com/guyue-0418/quiz-admin-dist
-- Vercel 地址：待填写
+- Vercel 地址：https://quiz-admin-dist-nine.vercel.app/
 
 ## Git 分支说明
 
