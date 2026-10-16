@@ -44,21 +44,21 @@ npm run build
 ## 在线地址
 
 - GitHub 仓库：https://github.com/guyue-0418/quiz-admin
+- 构建产物仓库：https://github.com/guyue-0418/quiz-admin-dist
 - Vercel 地址：待填写
 
 ## Git 分支说明
 
 - `main`：完整 Vue 源代码
-- `dist`：`npm run build` 生成的静态构建产物
+- 构建产物单独存放在 `quiz-admin-dist` 仓库，不再使用源码仓库的 `dist` 分支
 
-创建远程仓库后，将两个分支分别推送：
+推送完整源码：
 
 ```bash
 git push -u origin main
-git push -u origin dist
 ```
 
-Vercel 部署时选择 `dist` 分支，构建命令留空，输出目录设为 `.`；也可以选择 `main` 分支，让 Vercel 自动执行 `npm run build` 并输出 `dist`。
+Vercel 部署 `quiz-admin-dist` 仓库，构建命令留空，输出目录设为 `.`。
 
 ## 完成记录
 
