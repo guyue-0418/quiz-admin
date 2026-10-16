@@ -46,6 +46,20 @@ npm run build
 - GitHub 仓库：待填写
 - Vercel 地址：待填写
 
+## Git 分支说明
+
+- `main`：完整 Vue 源代码
+- `dist`：`npm run build` 生成的静态构建产物
+
+创建远程仓库后，将两个分支分别推送：
+
+```bash
+git push -u origin main
+git push -u origin dist
+```
+
+Vercel 部署时选择 `dist` 分支，构建命令留空，输出目录设为 `.`；也可以选择 `main` 分支，让 Vercel 自动执行 `npm run build` 并输出 `dist`。
+
 ## 完成记录
 
 - [x] 完成页面开发
