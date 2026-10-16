@@ -43,7 +43,7 @@ npm run build
 
 ## 在线地址
 
-- GitHub 仓库：待填写
+- GitHub 仓库：https://github.com/guyue-0418/quiz-admin
 - Vercel 地址：待填写
 
 ## Git 分支说明
